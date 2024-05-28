@@ -1,0 +1,59 @@
+.form{
+    background-color: #FFFFFF;
+    border: 1px solid #00000033;
+    width: 22.188rem;
+    height: 27.125rem ;
+    align-content: center;
+    & > input{
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 0.5rem;
+        font-size: 16px;
+        color: #868E96;
+        width: 18rem;
+        height: 3rem;
+        padding-left: 1REM;
+        margin-left: 1.3rem;
+    }
+    label{
+        font-size: 16px;
+        line-height: 2.813rem;
+        color: #212529;
+        margin-left: 1.3rem;
+    }
+    p{
+        color: #868E96;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 1.3rem;
+    }
+    select{
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 0.5rem;
+        font-size: 16px;
+        color: #868E96;
+        width: 19.3rem;
+        height: 3rem;
+        padding-left: 1.5rem;
+        margin-left: 1.3rem;
+    }
+    button{
+        background-color: #FD377E;
+        border: 2px solid #FD377E;
+        border-radius: 0.8rem;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 19.3rem;
+        height: 3rem;
+        padding-left: 1REM;
+        margin-top: 1rem;
+        font-weight: 500;
+        margin-left: 1.3rem;
+    } button:hover{
+        color: #F8F9FA;
+        background-color: #E34981;
+        border: 2px solid #E34981;
+        border-radius: 0.8rem;
+    }
+}

@@ -1,0 +1,28 @@
+.section{
+    width: 22.188rem;
+    height: 6rem;
+    margin: 0;
+    border: 1px solid #E9ECEF;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    & > h2{
+        margin-left: 1rem;
+        color: #212529;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: bold;
+    } span{
+        color: #FD377E;
+        font-size: 16px;
+        line-height: 1.875rem;
+        font-weight: bold;
+        margin: 0;
+        padding-left: 8REM;
+    }p{
+        color: #343A40;
+        font-size: 12px;
+        line-height: 22px;
+        margin-left: 1rem;
+    }
+
+}

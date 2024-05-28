@@ -1,11 +1,16 @@
+import style from "./financelist.module.scss"
 
-export const FinanceOne =  ({desc, valueP, type}) => {
+export const FinanceOne =  ({desc, amount, type , onDeleteFinance, index}) => {
     return(
-        <li>
+        <li className={style.li} >
+            <div className={style.div1}>
         <h2>{desc}</h2>
         <p>{type}</p>
-        <p>{valueP}</p>
-        <button>Excluir</button>
+        </div>
+        <div className={style.div2} >
+        <p>{amount} R$</p>
+        <button onClick={() => onDeleteFinance(index)}>Excluir</button> 
+        </div>
         </li>
     )
 };
