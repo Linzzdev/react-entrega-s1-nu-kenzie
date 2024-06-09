@@ -29,6 +29,21 @@
     margin-bottom: 1rem;
 }
 
+.lisaida{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 5.438rem;
+    width: 35rem;
+    background-color: #F8F9FA;
+    border-left: 4px solid #E9ECEF;
+    border-radius: 4px;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
 .div1{
     width: 21.063rem;
     height: 5.438rem;
